@@ -115,3 +115,7 @@ Debug-iphonesimulator
 cmake_build
 *.settings
 mars/cmake-build-debug
+
+# MarsLog iOS binary output
+/MarsLog_iOS/Frameworks/*.xcframework/
+!/MarsLog_iOS/Frameworks/.gitkeep
